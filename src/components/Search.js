@@ -21,27 +21,17 @@ function Search({ placeholder, data }) {
 
       <div className="dataResult">
 
-        {data.filter((val) => {
-          if (searchTerm === "") {
+        {
+          data.map((title) => {
 
-            return val
-          } else if (val.title.toLowerCase().includes(searchTerm.toLowerCase())) {
+            if (searchTerm !== "") {
+              if (title.toLowerCase().includes(searchTerm.toLowerCase())) {
 
-            return val
-          }
-        }).map((val, key) => {
-
-          return (
-
-            <div className="dataItem" key={key}>
-              <p>
-                {val.title} ,
-                {val.author}
-              </p>
-            </div>
-          );
-        })
-        }
+                return title
+              }
+            }
+            return { title }
+          })}
       </div>
 
     </div>
