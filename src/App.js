@@ -3,21 +3,21 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Products from './components/Products'
-import Search from "./components/Search";
 import About from './components/About'
 import './App.css';
 
 function App() {
   const [products, setProducts] = useState([])
+  const [searchTerm, setsearchTerm] = useState("");
 
   useEffect(() => {
     const getProducts = async () => {
-      const productsFromServer = await fetchProducts()        
-      setProducts(productsFromServer)   
+      const productsFromServer = await fetchProducts()
+      setProducts(productsFromServer)
     }
     getProducts()
   }, [])
-  
+
   // Fetch Products
   const fetchProducts = async () => {
     const res = await fetch('http://localhost:5000/products')
@@ -25,7 +25,7 @@ function App() {
 
     return data
   }
- 
+
   return (
     <Router>
       <div className='container'>
@@ -35,10 +35,17 @@ function App() {
           exact
           render={(props) => (
             <>
+              <input
+                type="text"
+                placeholder={"Search.."}
+                value={searchTerm}
+                onChange={(e) => { setsearchTerm(e.target.value); }}
+              />
               {products.length > 0 ? (
                 <Products
-                  products={products}
+                  products={products} searchTerm={searchTerm}
                 />
+
               ) : (
                 'No Products To Show'
               )}
@@ -46,7 +53,7 @@ function App() {
           )}
         />
         <Route path='/about' component={About} />
-        
+
       </div>
       <Footer />
     </Router>
