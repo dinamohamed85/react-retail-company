@@ -1,12 +1,13 @@
-
 const Product = ({ product }) => {
     return (
-        <div      >
-            <h2>
-                {product.title}{' '}
-            </h2>
-            <h4>{product.author}</h4>
-            <p>{product.year}</p>
+        <div className='product' >
+            <img src={product.image}></img>
+            <h3>
+                {product.product_name}{' '}
+            </h3>
+            
+            <h4>{product.description}</h4>
+            <p>{product.price}{' €'}</p>
         </div>
     )
 }

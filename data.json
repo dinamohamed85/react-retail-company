@@ -2,33 +2,43 @@
   "products": [
     {
       "id": 1,
-      "author": "Chinua Achebe",
-      "title": "Things Fall Apart",
-      "year": 1958
+      "product_name": "Peas - Pigeon, Dry",
+      "product_number": "43-662-6793",
+      "description": "Insert of Intralum Dev into R Hypogast Vein, Perc Approach",
+      "image": "http://dummyimage.com/121x100.png/5fa2dd/ffffff",
+      "price": "3.33"
     },
     {
       "id": 2,
-      "author": "Hans Christian Andersen",
-      "title": "Fairy tales",
-      "year": 1836
+      "product_name": "Hot Choc Vending",
+      "product_number": "26-234-7074",
+      "description": "Revision of Drainage Device in Adrenal Gland, Perc Approach",
+      "image": "http://dummyimage.com/121x100.png/5fa2dd/ffffff",
+      "price": "5.50"
     },
     {
       "id": 3,
-      "author": "Dante Alighieri",
-      "title": "The Divine Comedy",
-      "year": 1315
+      "product_name": "Sprouts - Corn",
+      "product_number": "52-562-8820",
+      "description": "Detachment at Left Hand, Complete 2nd Ray, Open Approach",
+      "image": "http://dummyimage.com/121x100.png/dddddd/000000",
+      "price": "7.71"
     },
     {
       "id": 4,
-      "author": "Unknown",
-      "title": "The Epic Of Gilgamesh",
-      "year": -1700
+      "product_name": "Turkey - Breast, Boneless Sk On",
+      "product_number": "31-107-1118",
+      "description": "Replace of L Toe Phalanx with Autol Sub, Perc Endo Approach",
+      "image": "http://dummyimage.com/121x100.png/dddddd/000000",
+      "price": "1.56"
     },
     {
       "id": 5,
-      "author": "Unknown",
-      "title": "The Book Of Job",
-      "year": -600
+      "product_name": "Dates",
+      "product_number": "15-732-5639",
+      "description": "Bypass L Kidney Pelvis to Colon w Autol Sub, Perc Endo",
+      "image": "http://dummyimage.com/121x100.png/dddddd/000000",
+      "price": "5.44"
     }
   ]
 }

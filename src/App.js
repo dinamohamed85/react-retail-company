@@ -12,9 +12,8 @@ function App() {
 
   useEffect(() => {
     const getProducts = async () => {
-      const productsFromServer = await fetchProducts()  
-      products = productsFromServer
-      //setProducts(productsFromServer)   
+      const productsFromServer = await fetchProducts()        
+      setProducts(productsFromServer)   
     }
     getProducts()
   }, [])
@@ -47,8 +46,9 @@ function App() {
           )}
         />
         <Route path='/about' component={About} />
-        <Footer />
+        
       </div>
+      <Footer />
     </Router>
   );
 }
