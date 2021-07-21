@@ -12,12 +12,9 @@ const Products = ({ products, searchTerm }) => {
                 else {
                     return < Product key={index} product={product} />
                 }
-
             }
-
             )}
-        </>
-        
+        </>        
     )
 }
 

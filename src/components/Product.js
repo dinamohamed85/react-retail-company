@@ -8,12 +8,8 @@ const Product = ({ product }) => {
                 </h3>
                 <p className="price" >{product.price}{' €'}</p  >
                 <div className="desc">{product.description}</div>
-
             </div>
-
-
         </div >
-
     )
 }
 

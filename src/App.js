@@ -5,7 +5,6 @@ import Footer from './components/Footer'
 import Products from './components/Products'
 import About from './components/About'
 import './App.css';
-import './components/Search.css'
 
 function App() {
   const [products, setProducts] = useState([])
@@ -49,17 +48,13 @@ function App() {
                   products={products} searchTerm={searchTerm}
                 />
 
-
               ) : (
                 'No Products To Show'
               )}
             </>
-
           )}
-        />
-        <div className="clearfix"></div>
+        />       
         <Route path='/about' component={About} />
-
       </div>
 
       <Footer />
