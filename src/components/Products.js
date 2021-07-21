@@ -17,6 +17,7 @@ const Products = ({ products, searchTerm }) => {
 
             )}
         </>
+        
     )
 }
 

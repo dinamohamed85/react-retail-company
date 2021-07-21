@@ -39,6 +39,32 @@
       "description": "Bypass L Kidney Pelvis to Colon w Autol Sub, Perc Endo",
       "image": "https://storage.googleapis.com/react-retail-company/img5.jpg",
       "price": "5.44"
+    },
+    {
+      "id": 6,
+      "product_name": "Dates",
+      "product_number": "15-732-5639",
+      "description": "Bypass L Kidney Pelvis to Colon w Autol Sub, Perc Endo",
+      "image": "https://storage.googleapis.com/react-retail-company/img6.jpg",
+      "price": "5.44"
+    }
+    ,
+    {
+      "id": 7,
+      "product_name": "Dates",
+      "product_number": "15-732-5639",
+      "description": "Bypass L Kidney Pelvis to Colon w Autol Sub, Perc Endo",
+      "image": "https://storage.googleapis.com/react-retail-company/img7.jpg",
+      "price": "5.44"
+    }
+    ,
+    {
+      "id": 8,
+      "product_name": "Dates",
+      "product_number": "15-732-5639",
+      "description": "Bypass L Kidney Pelvis to Colon w Autol Sub, Perc Endo",
+      "image": "https://storage.googleapis.com/react-retail-company/img8.jpg",
+      "price": "5.44"
     }
   ]
 }

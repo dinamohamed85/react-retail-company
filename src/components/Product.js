@@ -1,14 +1,19 @@
 const Product = ({ product }) => {
     return (
-        <div className='product' >
-            <img src={product.image}></img>
-            <h3>
-                {product.product_name}{' '}
-            </h3>
-            
-            <h4>{product.description}</h4>
-            <p>{product.price}{' €'}</p>
-        </div>
+        <div className="responsive" >
+            <div className="gallery">
+                <img src={product.image} width="600px" height="400px"></img>
+                <h3>
+                    {product.product_name}{' '}
+                </h3>
+                <p className="price" >{product.price}{' €'}</p  >
+                <div className="desc">{product.description}</div>
+
+            </div>
+
+
+        </div >
+
     )
 }
 
