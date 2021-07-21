@@ -38,31 +38,31 @@ footer {
 }
 
 /*--------------------------------------------------*/
-div.gallery {
+.gallery {
   border: 1px solid #ccc;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: auto;
+  margin: 10px auto;
   text-align: center;
   font-family: arial;
 }
 
-div.gallery:hover {
+.gallery:hover {
   border: 1px solid #777;
 }
 
-div.gallery img {
+.gallery img {
   width: 100%;
   height: auto; 
 }
 
-div.desc {
+.desc {
   padding: 15px;
   text-align: center;
 }
 
-div.price {
-  color: grey;
+.price {
+  color: gray;
   font-size: 22px;
 }
 
